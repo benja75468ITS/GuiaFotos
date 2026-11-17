@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InstantesEternos — Guía de fotografía desde cero</title>
+<meta name="description" content="Aprende fotografía desde cero: equipo, exposición, composición, luz, géneros, edición y un plan de práctica de 30 días.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#inicio">InstantesEternos</a>
+  <nav class="dnav" aria-label="Secciones"><a href="#que-es">Qué es</a><a href="#equipo">Equipo</a><a href="#exposicion">Exposición</a><a href="#enfoque">Enfoque</a><a href="#composicion">Composición</a><a href="#luz">Luz</a><a href="#generos">Géneros</a><a href="#edicion">Edición</a><a href="#referencia">Referencia</a><a href="#plan">Plan 30 días</a><a href="#glosario">Glosario</a></nav>
+  <span class="here" id="aqui" aria-live="polite"></span>
+  <button id="tema" aria-label="Cambiar entre modo claro y oscuro">◐</button>
+  <button class="menubtn" id="menuBtn" aria-expanded="false" aria-controls="menu"><span class="ico" aria-hidden="true"></span><span id="menuTxt">Menú</span></button>
+</header>
+<nav class="menu" id="menu" aria-label="Secciones de la guía"><span class="tag">Índice de la guía</span><ol><li><a href="#inicio" data-n="00"><i>00</i>Inicio</a></li><li><a href="#que-es" data-n="01"><i>01</i>¿Qué es la fotografía?</a></li><li><a href="#equipo" data-n="02"><i>02</i>Equipo</a></li><li><a href="#exposicion" data-n="03"><i>03</i>Exposición</a></li><li><a href="#enfoque" data-n="04"><i>04</i>Modos y enfoque</a></li><li><a href="#composicion" data-n="05"><i>05</i>Composición</a></li><li><a href="#luz" data-n="06"><i>06</i>La luz</a></li><li><a href="#generos" data-n="07"><i>07</i>Géneros</a></li><li><a href="#edicion" data-n="08"><i>08</i>Edición básica</a></li><li><a href="#referencia" data-n="09"><i>09</i>Hoja de referencia</a></li><li><a href="#plan" data-n="10"><i>10</i>Plan de 30 días</a></li><li><a href="#glosario" data-n="+"><i>+</i>Glosario y preguntas</a></li></ol></nav>
+
+<section class="hero" id="inicio" style="padding-top:60px">
+  <div class="bars" aria-hidden="true"></div>
+  <div>
+    <p class="tag">Guía para principiantes · por Alberto Benjamin Poot Veloz</p>
+    <h1>Aprende a<br>ver. Luego<br>a disparar.</h1>
+    <p class="sub">Todo lo que necesitas para tomar fotos buenas con un celular o una cámara: cómo funciona la exposición, cómo componer, cómo usar la luz y cómo practicar. Sin tecnicismos innecesarios, con ajustes iniciales que puedes copiar hoy.</p>
+    <a class="btn" href="#que-es">Empezar la guía →</a>
+    <p class="coords">18.5°N 90.3°O · CAMPECHE, MX</p>
+  </div>
+  <div class="heroimg">
+    <div class="ph" data-file="images/hero.JPG" style="--img:url(images/hero.JPG);background-position:15% center"></div>
+    <span class="scrawl marker">mira distinto</span>
+  </div>
+</section>
+
+<section id="que-es">
+  <div class="head"><span class="tag">01 / 10</span><h2>¿Qué es la fotografía?</h2></div>
+  <div class="grid g2">
+    <div>
+      <p>Fotografiar es <b>capturar luz</b>. La palabra viene del griego: <i>photos</i> (luz) y <i>graphé</i> (escritura). Una cámara es una caja oscura con un agujero por el que entra luz; esa luz golpea un sensor (o antes, una película) que la convierte en imagen.</p>
+      <p>Toda la técnica se resume en tres decisiones: <b>cuánta luz dejas entrar</b>, <b>qué encuadras</b> y <b>cuándo disparas</b>. Lo demás es práctica.</p>
+      <p>No necesitas una cámara cara. Las mejores fotos las hace quien entiende la luz y la composición, no quien tiene más equipo.</p>
+      <div class="callout"><b>Idea clave:</b> una cámara no ve como tus ojos. Tus ojos se ajustan solos a la luz; la cámara necesita que tú le digas cuánta luz recibir.</div>
+    </div>
+    <div><div class="ph" data-file="images/que-es.jpg" style="--img:url(images/que-es.jpg);--r:4/5"></div><p class="cap">Fotografiar es capturar luz: hasta una sombra puede ser el tema.</p></div>
+  </div>
+</section>
+
+<section id="equipo">
+  <div class="head"><span class="tag">02 / 10</span><h2>Equipo</h2></div>
+  <p style="margin-bottom:30px">Empieza con lo que ya tienes. Cambia de equipo solo cuando algo concreto te limite, no antes.</p>
+  <div class="eq">
+    <figure><div class="ph" data-file="images/equipo-celular.jpg" style="--img:url(images/equipo-celular.jpg)"></div><h3>Celular</h3><p class="cap">Siempre contigo, modo manual en muchos modelos, fotos listas para compartir. Ideal para aprender composición y luz.</p></figure>
+    <figure><div class="ph" data-file="images/equipo-camara.jpg" style="--img:url(images/equipo-camara.jpg)"></div><h3>Cámara</h3><p class="cap">Sensor más grande, mejor en poca luz y control total. Mirrorless: más compacta y moderna. Réflex: robusta y muy económica de segunda mano.</p></figure>
+    <figure><div class="ph" data-file="images/equipo-lente.jpg" style="--img:url(images/equipo-lente.jpg)"></div><h3>Lentes</h3><p class="cap">El lente importa más que el cuerpo. Un 50 mm f/1.8 es el primer lente recomendado: barato, nítido y con fondo desenfocado.</p></figure>
+    <figure><div class="ph" data-file="images/equipo-accesorios.jpg" style="--img:url(images/equipo-accesorios.jpg)"></div><h3>Accesorios</h3><p class="cap">Trípode para noche y larga exposición, tarjetas de memoria rápidas, batería extra y un paño de microfibra.</p></figure>
+  </div>
+  <div class="tw"><table>
+    <tr><th>Tipo</th><th>Ventaja</th><th>Límite</th><th>Ideal para</th></tr>
+    <tr><td>Celular</td><td>Cómodo, siempre contigo</td><td>Sensor pequeño, poco zoom óptico</td><td>Calle, viajes, empezar</td></tr>
+    <tr><td>Compacta</td><td>Pequeña, buena calidad</td><td>Lente fijo</td><td>Viajes, calle</td></tr>
+    <tr><td>Mirrorless</td><td>Ligera, enfoque moderno</td><td>Batería más corta, precio</td><td>Casi todo</td></tr>
+    <tr><td>Réflex</td><td>Robusta, batería larga</td><td>Grande y pesada</td><td>Eventos, deportes</td></tr>
+  </table></div>
+</section>
+
+<section id="exposicion" class="dark">
+  <div class="head"><span class="tag">03 / 10</span><h2>El triángulo de exposición</h2></div>
+  <p>La <b>exposición</b> es cuánta luz recibe el sensor. Se controla con tres ajustes que se afectan entre sí: si cambias uno, normalmente debes compensar con otro.</p>
+  <div class="grid g3" style="margin-top:34px">
+    <div class="card"><h3>Apertura (f/)</h3><p>El tamaño del diafragma del lente. <b>Número bajo (f/1.8)</b> = agujero grande: entra mucha luz y el fondo se desenfoca. <b>Número alto (f/16)</b> = agujero pequeño: entra poca luz y todo sale nítido.</p><div class="ph" data-file="images/exp-apertura.jpg" style="--img:url(images/exp-apertura.jpg);margin-top:14px"></div></div>
+    <div class="card"><h3>Velocidad</h3><p>El tiempo que el obturador queda abierto. <b>1/1000 s</b> congela un salto. <b>1/30 s</b> deja estelas de movimiento. Con menos de 1/60 s necesitas trípode o pulso firme para no mover la foto.</p><div class="ph" data-file="images/exp-velocidad.jpg" style="--img:url(images/exp-velocidad.jpg);margin-top:14px"></div></div>
+    <div class="card"><h3>ISO</h3><p>La sensibilidad del sensor. <b>ISO 100</b> da imagen limpia con buena luz. <b>ISO 3200</b> permite fotografiar de noche, pero añade grano (ruido). Súbelo solo cuando ya no puedas abrir más la apertura ni bajar la velocidad.</p><div class="ph" data-file="images/exp-iso.jpg" style="--img:url(images/exp-iso.jpg);margin-top:14px"></div></div>
+  </div>
+  <div class="tw"><table>
+    <tr><th>Si quieres...</th><th>Haz esto</th><th>Pero cuidado con</th></tr>
+    <tr><td>Fondo borroso</td><td>Abre el diafragma (f/1.8 a f/2.8)</td><td>Enfoque más difícil: poca profundidad</td></tr>
+    <tr><td>Todo nítido (paisaje)</td><td>Cierra a f/8 – f/11</td><td>Menos luz: baja la velocidad o sube ISO</td></tr>
+    <tr><td>Congelar movimiento</td><td>Velocidad 1/500 s o más rápida</td><td>Entra menos luz</td></tr>
+    <tr><td>Estela de movimiento</td><td>Velocidad 1/15 s o más lenta, trípode</td><td>Foto sobreexpuesta de día: usa ISO 100 y f/16</td></tr>
+    <tr><td>Foto de noche sin trípode</td><td>f/1.8, 1/60 s, ISO 1600–3200</td><td>Grano; límpialo al editar</td></tr>
+  </table></div>
+  <div class="callout"><b>Regla práctica de pulso:</b> la velocidad mínima para fotos sin trípode es 1 dividido entre la distancia focal. Con un lente de 50 mm, no bajes de 1/50 s.</div>
+</section>
+
+<section id="enfoque">
+  <div class="head"><span class="tag">04 / 10</span><h2>Modos y enfoque</h2></div>
+  <div class="grid g2">
+    <div>
+      <h3>Modos de la cámara</h3>
+      <ul class="clean">
+        <li><b>Auto:</b> la cámara decide todo. Útil para no perder un momento.</li>
+        <li><b>A o Av (prioridad de apertura):</b> tú eliges la apertura y ella la velocidad. <b>El mejor modo para aprender.</b></li>
+        <li><b>S o Tv (prioridad de velocidad):</b> tú eliges la velocidad. Ideal para deporte y movimiento.</li>
+        <li><b>M (manual):</b> controlas los tres ajustes. Úsalo cuando la luz no cambia, como en estudio o de noche con trípode.</li>
+      </ul>
+      <p style="margin-top:18px">Empieza en <b>A/Av con ISO automático</b> y avanza al manual cuando entiendas qué hace cada ajuste.</p>
+    </div>
+    <div>
+      <h3>Enfoque</h3>
+      <ul class="clean">
+        <li><b>Enfoque único (AF-S):</b> para sujetos quietos. Enfoca y bloquea.</li>
+        <li><b>Enfoque continuo (AF-C):</b> para sujetos en movimiento; la cámara sigue ajustando.</li>
+        <li><b>Punto único:</b> tú decides exactamente dónde enfocar. En retrato, <b>enfoca siempre el ojo más cercano</b>.</li>
+        <li><b>Detección de ojos:</b> las cámaras modernas la traen; actívala.</li>
+      </ul>
+      <div class="ph" data-file="images/enfoque.jpg" style="--img:url(images/enfoque.jpg);--r:16/9;margin-top:18px"></div>
+    </div>
+  </div>
+</section>
+
+<section id="composicion" class="dark">
+  <div class="head"><span class="tag">05 / 10</span><h2>Composición</h2></div>
+  <p>La composición es decidir <b>qué entra en el cuadro y dónde</b>. Una buena composición guía la vista del espectador hacia lo importante. Estas son las técnicas más útiles, y todas se pueden romper cuando sabes por qué.</p>
+  <div class="grid g3" style="margin-top:34px">
+    <div class="card"><div class="ph" data-file="images/comp-tercios.jpg" style="--img:url(images/comp-tercios.jpg)"></div><h3>Regla de tercios</h3><p>Divide el cuadro en 3×3 y coloca el sujeto sobre una línea o un cruce, no al centro. Activa la cuadrícula en tu cámara o celular.</p></div>
+    <div class="card"><div class="ph" data-file="images/comp-lineas.jpg" style="--img:url(images/comp-lineas.jpg)"></div><h3>Líneas guía</h3><p>Calles, vías, escaleras o bardas que llevan la mirada hacia el sujeto. Colócate donde las líneas converjan.</p></div>
+    <div class="card"><div class="ph" data-file="images/comp-simetria.jpg" style="--img:url(images/comp-simetria.jpg)"></div><h3>Simetría y reflejos</h3><p>Centra el sujeto cuando el cuadro es simétrico: edificios, charcos, agua. Aquí sí funciona romper la regla de tercios.</p></div>
+    <div class="card"><div class="ph" data-file="images/comp-encuadre.jpg" style="--img:url(images/comp-encuadre.jpg)"></div><h3>Encuadre natural</h3><p>Usa ventanas, arcos o puertas como marco dentro de la foto para dar profundidad y aislar al sujeto.</p></div>
+    <div class="card"><div class="ph" data-file="images/comp-perspectiva.jpg" style="--img:url(images/comp-perspectiva.jpg)"></div><h3>Punto de vista</h3><p>Agáchate, sube, acércate. Un contrapicado (desde abajo) da poder; un picado (desde arriba) da vulnerabilidad.</p></div>
+    <div class="card"><h3>Espacio negativo</h3><p>Deja vacío alrededor del sujeto. Un sujeto pequeño en un espacio grande transmite soledad, escala y calma.</p></div>
+  </div>
+  <div class="callout"><b>Antes de disparar, revisa los bordes del cuadro.</b> Los errores más comunes son un poste que sale de la cabeza de alguien, un sujeto cortado por las articulaciones o un horizonte inclinado.</div>
+</section>
+
+<section id="luz">
+  <div class="head"><span class="tag">06 / 10</span><h2>La luz</h2></div>
+  <p>Un buen fotógrafo no busca el mejor lugar: busca la mejor luz. Observa de dónde viene, qué tan dura es y de qué color.</p>
+  <div class="grid g3" style="margin-top:34px">
+    <div class="card"><div class="ph col" data-file="images/luz-dorada.jpg" style="--img:url(images/luz-dorada.jpg)"></div><h3>Hora dorada</h3><p>La primera hora tras el amanecer y la última antes del atardecer. Luz cálida, suave y con sombras largas. Perfecta para retrato y paisaje.</p></div>
+    <div class="card"><div class="ph col" data-file="images/luz-dura.jpg" style="--img:url(images/luz-dura.jpg)"></div><h3>Luz dura</h3><p>Sol de mediodía: sombras marcadas y contraste alto. Mala para rostros, pero excelente para fotografía urbana en blanco y negro.</p></div>
+    <div class="card"><div class="ph col" data-file="images/luz-noche.jpg" style="--img:url(images/luz-noche.jpg)"></div><h3>Noche y luces artificiales</h3><p>Neones, faroles y escaparates. Usa apertura grande, ISO medio-alto y busca reflejos en el suelo mojado.</p></div>
+  </div>
+  <div class="grid g2" style="margin-top:40px">
+    <div><h3>Trucos rápidos</h3><ul class="clean"><li>Luz de ventana: la fuente más bonita para retratos en interiores.</li><li>Día nublado: funciona como una caja de luz gigante y suave.</li><li>Contraluz: expone para el sujeto y obtendrás una silueta dramática.</li><li>Evita el flash de la cámara; si lo usas, rebótalo en un techo blanco.</li></ul></div>
+    <div><h3>Balance de blancos</h3><p>Controla el color de la luz. Luz de foco se ve naranja y sombra se ve azulada. Si disparas en RAW, puedes corregirlo después sin perder calidad.</p></div>
+  </div>
+</section>
+
+<section id="generos" class="dark">
+  <div class="head"><span class="tag">07 / 10</span><h2>Géneros</h2></div>
+  <p>Prueba todos. Tu estilo aparece cuando descubres cuál repites sin que nadie te lo pida.</p>
+  <div class="grid g3" style="margin-top:34px">
+    <div class="card"><div class="ph" data-file="images/gen-retrato.jpg" style="--img:url(images/gen-retrato.jpg);--r:3/4;background-position:30% center"></div><h3>Retrato</h3><p>Lente de 50–85 mm, f/1.8–f/2.8, enfoque al ojo, luz suave de ventana o sombra abierta.</p></div>
+    <div class="card"><div class="ph" data-file="images/gen-paisaje.jpg" style="--img:url(images/gen-paisaje.jpg);--r:3/4"></div><h3>Paisaje</h3><p>Gran angular, f/8–f/11, ISO 100, trípode. Incluye primer plano, plano medio y fondo para dar profundidad.</p></div>
+    <div class="card"><div class="ph" data-file="images/gen-calle.jpg" style="--img:url(images/gen-calle.jpg);--r:3/4"></div><h3>Calle</h3><p>35 mm, f/8, 1/250 s y enfoque pre-ajustado a 3 metros. Anticipa el momento y sé respetuoso con las personas.</p></div>
+    <div class="card"><div class="ph" data-file="images/gen-macro.jpg" style="--img:url(images/gen-macro.jpg);--r:3/4"></div><h3>Macro</h3><p>Lente macro o accesorio para celular, f/5.6–f/11, mucha luz y paciencia: la profundidad de campo es mínima.</p></div>
+    <div class="card"><div class="ph" data-file="images/gen-nocturna.jpg" style="--img:url(images/gen-nocturna.jpg);--r:3/4"></div><h3>Nocturna</h3><p>Trípode, f/2.8, 10–25 s, ISO 800–1600. Usa el temporizador de 2 s para no mover la cámara al disparar.</p></div>
+    <div class="card"><div class="ph" data-file="images/gen-deporte.jpg" style="--img:url(images/gen-deporte.jpg);--r:3/4"></div><h3>Acción</h3><p>Modo S/Tv a 1/1000 s o más, AF continuo y ráfaga. Fotografía el momento previo al pico de la acción.</p></div>
+  </div>
+</section>
+
+<section id="edicion">
+  <div class="head"><span class="tag">08 / 10</span><h2>Edición básica</h2></div>
+  <div class="grid g2">
+    <div>
+      <h3>RAW o JPG</h3>
+      <p><b>JPG:</b> ligero y listo para compartir, pero la cámara ya aplicó decisiones. <b>RAW:</b> guarda toda la información del sensor y te da mucho margen para rescatar luces y sombras. Si quieres editar en serio, dispara en RAW (o RAW+JPG).</p>
+      <h3 style="margin-top:28px">Orden recomendado</h3>
+      <ol style="padding-left:20px;max-width:60ch">
+        <li>Recorta y endereza el horizonte.</li>
+        <li>Exposición general.</li>
+        <li>Altas luces y sombras.</li>
+        <li>Blancos y negros (contraste).</li>
+        <li>Color: balance de blancos, vibrance.</li>
+        <li>Nitidez al final, y reducción de ruido si usaste ISO alto.</li>
+      </ol>
+      <p style="margin-top:18px">Programas gratuitos: Snapseed (celular), Darktable o RawTherapee (computadora). De pago: Lightroom y Capture One.</p>
+    </div>
+    <div>
+      <div class="ph col" data-file="images/edicion-antes.jpg" style="--img:url(images/edicion-antes.jpg);--r:4/3"></div>
+      <p class="cap">Antes</p>
+      <div class="ph col" data-file="images/edicion-despues.jpg" style="--img:url(images/edicion-despues.jpg);--r:4/3;margin-top:14px"></div>
+      <p class="cap">Después (misma foto, editada)</p>
+    </div>
+  </div>
+  <div class="callout"><b>Menos es más.</b> Una buena edición no se nota. Si tu foto parece editada, probablemente exageraste.</div>
+</section>
+
+<section id="referencia" class="dark">
+  <div class="head"><span class="tag">09 / 10</span><h2>Hoja de referencia</h2></div>
+  <p>Ajustes de partida. Prueba, revisa el resultado y corrige. Son un punto de inicio, no una regla.</p>
+  <div class="tw"><table>
+    <tr><th>Situación</th><th>Modo</th><th>Apertura</th><th>Velocidad</th><th>ISO</th></tr>
+    <tr><td>Retrato con luz de ventana</td><td>A</td><td>f/2</td><td>1/125 s</td><td>400–800</td></tr>
+    <tr><td>Paisaje a pleno sol</td><td>A / M</td><td>f/8–f/11</td><td>1/250 s</td><td>100</td></tr>
+    <tr><td>Calle de día</td><td>A / M</td><td>f/8</td><td>1/250 s</td><td>200</td></tr>
+    <tr><td>Deporte o niños corriendo</td><td>S</td><td>automática</td><td>1/1000 s</td><td>auto</td></tr>
+    <tr><td>Interior con poca luz</td><td>A</td><td>f/1.8–f/2.8</td><td>1/60 s</td><td>1600–3200</td></tr>
+    <tr><td>Ciudad de noche con trípode</td><td>M</td><td>f/8</td><td>5–15 s</td><td>100–200</td></tr>
+    <tr><td>Agua sedosa</td><td>M</td><td>f/11–f/16</td><td>0.5–2 s</td><td>100</td></tr>
+  </table></div>
+  <h3 style="margin-top:36px">Errores comunes de principiantes</h3>
+  <div class="grid g3" style="margin-top:14px">
+    <div class="card"><p><b>Fotos movidas.</b> Velocidad demasiado lenta. Sube la velocidad o el ISO.</p></div>
+    <div class="card"><p><b>Fotos oscuras en la sombra.</b> Con contraluz la cámara se confunde: usa compensación de exposición (+1).</p></div>
+    <div class="card"><p><b>Sujeto desenfocado.</b> Enfocaste el fondo. Usa punto único sobre el ojo.</p></div>
+    <div class="card"><p><b>Horizonte torcido.</b> Activa la cuadrícula y el nivel digital.</p></div>
+    <div class="card"><p><b>Disparar siempre desde la altura de los ojos.</b> Cambia de ángulo.</p></div>
+    <div class="card"><p><b>Comprar antes de aprender.</b> Dominar lo que tienes sirve más que otro lente.</p></div>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="head"><span class="tag">10 / 10</span><h2>Plan de práctica: 30 días</h2></div>
+  <div class="dark" style="padding:10px 26px;max-width:900px">
+    <div class="plan">
+      <div><b>Días 1–3</b><span>Activa la cuadrícula y fotografía lo que veas sin pensarlo. Revisa qué fotos te gustan y por qué.</span></div>
+      <div><b>Días 4–7</b><span>Regla de tercios: 10 fotos diarias del mismo objeto en distintas posiciones del cuadro.</span></div>
+      <div><b>Días 8–12</b><span>Modo A/Av: una misma escena a f/1.8, f/4, f/8 y f/16. Compara el fondo.</span></div>
+      <div><b>Días 13–16</b><span>Velocidad: congela una persona caminando, luego haz una estela con 1/15 s.</span></div>
+      <div><b>Días 17–20</b><span>Luz: fotografía el mismo lugar al amanecer, mediodía y atardecer.</span></div>
+      <div><b>Días 21–24</b><span>Líneas guía, simetría y encuadres naturales en tu colonia.</span></div>
+      <div><b>Días 25–27</b><span>Retrato a un amigo con luz de ventana. Enfoca siempre el ojo.</span></div>
+      <div><b>Días 28–30</b><span>Edita tus 5 mejores fotos y escribe qué aprendiste con cada una.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="glosario">
+  <div class="head"><span class="tag">Extra</span><h2>Glosario</h2></div>
+  <dl>
+    <dt>Apertura</dt><dd>Tamaño del orificio del lente. Se mide en f/.</dd>
+    <dt>Bokeh</dt><dd>La calidad estética del fondo desenfocado.</dd>
+    <dt>Bracketing</dt><dd>Tomar varias fotos con distinta exposición de la misma escena.</dd>
+    <dt>Compensación de exposición</dt><dd>Ajuste para hacer la foto más clara u oscura en modos automáticos.</dd>
+    <dt>Contrapicado</dt><dd>Foto tomada desde abajo hacia arriba.</dd>
+    <dt>Diafragma</dt><dd>Piezas del lente que forman la apertura.</dd>
+    <dt>Distancia focal</dt><dd>Medida en mm; define el ángulo de visión (zoom).</dd>
+    <dt>Exposición</dt><dd>Cantidad de luz que recibe el sensor.</dd>
+    <dt>Foco / enfoque</dt><dd>Nitidez del punto elegido.</dd>
+    <dt>Fotómetro</dt><dd>Medidor de luz de la cámara.</dd>
+    <dt>Gran angular</dt><dd>Lente que abarca mucha escena (menos de 35 mm).</dd>
+    <dt>Histograma</dt><dd>Gráfica que muestra la distribución de sombras y luces.</dd>
+    <dt>ISO</dt><dd>Sensibilidad del sensor a la luz.</dd>
+    <dt>JPG</dt><dd>Formato comprimido y listo para usar.</dd>
+    <dt>Larga exposición</dt><dd>Velocidad de varios segundos para captar movimiento.</dd>
+    <dt>Luz dura / suave</dt><dd>Con sombras marcadas / con sombras difusas.</dd>
+    <dt>Macro</dt><dd>Fotografía de cerca de objetos muy pequeños.</dd>
+    <dt>Medición</dt><dd>Modo con el que la cámara mide la luz (matricial, puntual, central).</dd>
+    <dt>Mirrorless</dt><dd>Cámara sin espejo; compacta y con visor electrónico.</dd>
+    <dt>Obturador</dt><dd>Cortina que controla cuánto tiempo entra la luz.</dd>
+    <dt>Picado</dt><dd>Foto tomada desde arriba hacia abajo.</dd>
+    <dt>Profundidad de campo</dt><dd>Zona que sale nítida delante y detrás del sujeto.</dd>
+    <dt>RAW</dt><dd>Archivo con toda la información del sensor.</dd>
+    <dt>Ráfaga</dt><dd>Disparar varias fotos seguidas.</dd>
+    <dt>Regla de tercios</dt><dd>Cuadrícula 3×3 para ubicar al sujeto.</dd>
+    <dt>Ruido / grano</dt><dd>Puntos que aparecen con ISO alto.</dd>
+    <dt>Sensor</dt><dd>Chip que registra la luz.</dd>
+    <dt>Teleobjetivo</dt><dd>Lente que acerca (más de 85 mm).</dd>
+    <dt>Velocidad de obturación</dt><dd>Tiempo que el obturador está abierto.</dd>
+    <dt>Vignetting / viñeteo</dt><dd>Oscurecimiento en las esquinas de la foto.</dd>
+    <dt>Zoom</dt><dd>Cambio de distancia focal para acercar o alejar.</dd>
+  </dl>
+  <h3 style="margin:50px 0 6px">Preguntas frecuentes</h3>
+  <details><summary>¿Necesito una cámara profesional para empezar?</summary><p>No. Un celular reciente y la cuadrícula activada bastan para aprender composición y luz, que es lo más importante.</p></details>
+  <details><summary>¿Qué lente compro primero?</summary><p>Un 50 mm f/1.8. Es económico, nítido y enseña cómo funciona la profundidad de campo.</p></details>
+  <details><summary>¿Cuánto tarda en notarse el progreso?</summary><p>Con práctica diaria, en unas 2 a 4 semanas notarás tus fotos más ordenadas. El estilo propio tarda meses.</p></details>
+  <details><summary>¿RAW o JPG?</summary><p>Si vas a editar, RAW. Si compartes directo desde el celular, JPG está bien.</p></details>
+  <details><summary>¿Dónde aprendo más?</summary><p>Revisa fotolibros, cuentas de fotógrafos que admires y prueba analizar por qué te gusta una foto: luz, ángulo, momento y composición.</p></details>
+</section>
+
+<section class="cta">
+  <div>
+    <p class="tag">Ahora te toca</p>
+    <h2>Sal a <span class="marker">disparar</span></h2>
+    <p style="margin:18px 0 24px">La mejor cámara es la que llevas contigo. Toma 10 fotos hoy, revisa cuál te gusta más y descubre por qué.</p>
+    <a class="btn" href="#plan">Ver el plan de 30 días →</a>
+  </div>
+  <div class="ph" data-file="images/cierre.jpg" style="--img:url(images/cierre.jpg)"></div>
+</section>
+
+<footer>
+  <span>InstantesEternos — Guía de fotografía para principiantes</span>
+  <span>Por Alberto Benjamin Poot Veloz · HTML y CSS · 2026</span>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
